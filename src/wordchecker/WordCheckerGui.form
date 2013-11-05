@@ -187,7 +187,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnImportWords">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Import words"/>
+        <Property name="text" type="java.lang.String" value="Import Words"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnImportWordsActionPerformed"/>
@@ -328,7 +328,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnExportUnknownWords">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Export Unknown Words"/>
+        <Property name="text" type="java.lang.String" value="Export Words Not In Dic"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExportUnknownWordsActionPerformed"/>

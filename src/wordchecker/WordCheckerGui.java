@@ -612,7 +612,7 @@ public class WordCheckerGui extends javax.swing.JFrame {
 
         lblWordsInDB.setText("Words in DB");
 
-        btnImportWords.setText("Import words");
+        btnImportWords.setText("Import Words");
         btnImportWords.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnImportWordsActionPerformed(evt);
@@ -703,7 +703,7 @@ public class WordCheckerGui extends javax.swing.JFrame {
 
         lblErrata.setText("0");
 
-        btnExportUnknownWords.setText("Export Unknown Words");
+        btnExportUnknownWords.setText("Export Words Not In Dic");
         btnExportUnknownWords.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnExportUnknownWordsActionPerformed(evt);
