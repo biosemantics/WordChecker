@@ -277,6 +277,7 @@ public class WordCheckerGui extends javax.swing.JFrame {
             for (WordParagraph paragraph : paragraphs) {
                 String paragraphString = paragraph.getParagraph().trim();
                 if (!paragraphString.equals("")) {
+                     this.totalBytesCount += paragraphString.trim().length();
                      String[] words = splitWords(paragraphString);
                      for (String word : words) {
                          if(word.trim().equals("")) {
@@ -284,7 +285,6 @@ public class WordCheckerGui extends javax.swing.JFrame {
                          }
                          
                          this.totalWordsCount++;
-                         this.totalBytesCount += word.length();
                          if(!filterWord(word)) {
                              if (!matchDictionary(word.trim())) {
                                  if (this.errataTable.containsKey(word)) {
